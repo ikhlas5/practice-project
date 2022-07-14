@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+#hero{
+    background-image: url(images/eid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    margin: 0px;
+    padding: 0px;
+}
+.hero-big{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.hero-class{
+    width: 40%;
+    padding-left: 20px;
+   
+}
+.hero-class h1{
+    color: #40E0D0 ;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.hero-class p{
+    color: rgb(84, 223, 142);
+    font-size: 25px;
+    line-height: 25px;
+}
+.button{
+    text-decoration: none;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    background-color: orangered;
+    padding: 10px 15px;
+    color: bisque;
+    margin: 20px 0px ;
+}
