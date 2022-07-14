@@ -4,20 +4,21 @@ body{
     font-family: 'Edu QLD Beginner', cursive;
 }
 #hero{
-    background-image: url(images/eid.jpg);
+    background-image:   url(images/eid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 90vh;
     margin: 0px;
     padding: 0px;
+ 
 }
 .hero-big{
     display: flex;
     align-items: center;
     width: 100%;
     height: 100%;
-
+   
 }
 .hero-class{
     width: 40%;
@@ -43,5 +44,28 @@ body{
     background-color: orangered;
     padding: 10px 15px;
     color: bisque;
+    margin: 30px 5px ;
+}
+.continer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.flexable-continer{
+    width: 50%;
+    margin: 20px;
+    text-align: justify;
+}
+.continer img{
+    width: 100%;
+    border-radius: 5px;
     margin: 20px 0px ;
+    padding: 10px 5px;
+}
+#add-img{
+    margin-left: 5%;
+}
+.repat{
+    margin-left: 25%;
 }
