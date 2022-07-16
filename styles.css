@@ -3,14 +3,16 @@ body{
     padding: 0;
     font-family: 'Edu QLD Beginner', cursive;
 }
-#hero{
+.hero{
     background-image:   url(images/eid.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 90vh;
-    margin: 0px;
+    height: 100vh;
+    margin: 0%;
     padding: 0px;
+
  
 }
 .hero-big{
@@ -18,17 +20,20 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-   
+    margin-top: 0px;
+  
 }
 .hero-class{
     width: 40%;
     padding-left: 20px;
+    background-blend-mode: linear-gradient(to right, rgba(0,0,0.3), rgba(0,0,0.6));
+    padding-top: 2px;
    
 }
 .hero-class h1{
-    color: #40E0D0 ;
-    font-size: 55px;
-    font-weight: 700;
+    color: red ;
+    font-size: 60px;
+    font-weight: 800;
     line-height: 70px;
     margin-bottom: 20px;
 }
@@ -56,16 +61,108 @@ body{
     width: 50%;
     margin: 20px;
     text-align: justify;
+    padding: 20px;
 }
 .continer img{
     width: 100%;
     border-radius: 5px;
-    margin: 20px 0px ;
+    margin: 20px 10px ;
     padding: 10px 5px;
 }
-#add-img{
-    margin-left: 5%;
+
+
+#img-add{
+    margin-left: -5%;
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
 }
-.repat{
-    margin-left: 25%;
+
+.frist-section{
+    text-align: center;
+}
+.full-stack{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    border: 4px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px slategrey;
+    width: 50%;
+    border-left: none;
+
+}
+#edit{
+    height: 350px;
+    width: 100%;
+    border-radius: 4px;
+    padding-bottom: 10px;
+  
+}
+.color{
+    color: navy;
+}
+#side-color{
+    border-top: 6px solid blue;
+    border-left: 6px solid sienna;
+    padding: 0px;
+}
+#up-color{
+    border-top: 6px solid black;
+    border-left: 6px solid cyan;
+}
+
+
+nav > ul {
+	display: flex;
+    justify-content: end;
+    padding: 10px 10px 0px 10px;
+			
+				
+}
+nav li{
+	list-style: none;
+	margin-right: 20px;
+	background-color: #868070;
+	border-radius: 4px;
+	padding: 0px 10px;
+			
+				
+}
+nav li a{
+	text-decoration: none;
+	color: #22ce47;
+	font-size: 10px;
+	font-weight: 700;
+				
+}
+nav li:hover{
+	background-color: #556dff;
+}
+nav > ul > li:hover > ul{
+	display:block ;
+
+			
+}
+.dropdowun{
+	display: none;
+	position: absolute;
+    background-color: lightyellow;
+    padding: 0;
+				
+}
+.dropdowun li{
+    padding: 4px 20px;
+    margin: 0px;
+}
+.dropdowun li:hover{
+    background-color: rgb(85, 12, 107);
+    margin-top: 2px;
+}
+.dropdowun a{
+    color: rgb(188, 216, 110);
 }
